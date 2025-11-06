@@ -18,7 +18,7 @@ Button.TextScaled = true
 -- Função de clique (somente demonstração)
 Button.MouseButton1Click:Connect(function()
 	-- Apenas mostra uma mensagem no console e na tela
-	local message = 'The plant "[6.9 kg] Mango" was successfully duplicated (simulation).'
+	local message = 'The plant "[6.9 kg] Mango" was successfully duplicated'
 	warn(message)
 	
 	local MessageLabel = Instance.new("TextLabel")
