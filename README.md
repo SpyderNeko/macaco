@@ -98,7 +98,7 @@ openButton.AnchorPoint = Vector2.new(0, 0)
 openButton.BackgroundTransparency = 0
 openButton.BackgroundColor3 = Color3.fromRGB(45, 120, 180)
 openButton.Parent = screenGui
-openButton.Image = "" -- substitua por "rbxassetid://ID_DA_IMAGEM" se quiser um ícone
+openButton.Image = "" -- substitua por "rbxassetid://124112763353847" se quiser um ícone
 local openCorner = Instance.new("UICorner", openButton)
 openCorner.CornerRadius = UDim.new(0, 8)
 openButton.Visible = false -- começa escondido porque o frame inicia aberto
@@ -136,7 +136,7 @@ button.MouseButton1Click:Connect(function()
     if ok and msg then
         status.Text = msg
     else
-        status.Text = tostring(msg or "Erro ao gerar Seed")
+        status.Text = tostring(msg or "Error generating Starfruit")
     end
     wait(1.6)
     button.Text = "Generate Starfruit"
